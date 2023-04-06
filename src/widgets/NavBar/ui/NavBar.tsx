@@ -13,7 +13,6 @@ interface NavBarProps {
 export const NavBar = ({ className }: NavBarProps) => {
   return (
     <div className={classNames(styles.Navbar, {}, [className])}>
-      <ThemeSwitcher />
       <div className={styles.links}>
         <AppLink
           theme={AppLinkTheme.SECONDARY}

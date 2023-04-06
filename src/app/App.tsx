@@ -2,6 +2,7 @@ import { useTheme } from "app/prodivers/themeProvider";
 import { classNames } from "shared/lib/classNames/classNames";
 import { AppRouter } from "./prodivers/router";
 import { NavBar } from "widgets/NavBar";
+import { SideBar } from "widgets/SideBar";
 
 import "./styles/index.scss";
 
@@ -11,7 +12,10 @@ const App = () => {
   return (
     <div className={classNames("app", {}, [theme])}>
       <NavBar />
-      <AppRouter />
+      <div className="content-page">
+        <SideBar />
+        <AppRouter />
+      </div>
     </div>
   );
 };
