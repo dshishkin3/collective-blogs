@@ -39,6 +39,7 @@ module.exports = {
     "no-console": "warn",
     "react/button-has-type": "off",
     "arrow-body-style": "off",
+    "object-curly-newline": "off",
   },
   globals: {
     __IS_DEV__: true,
