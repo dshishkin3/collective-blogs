@@ -1,12 +1,10 @@
 import { Suspense } from "react";
 
-import { useTranslation } from "react-i18next";
-
 import { useTheme } from "app/prodivers/themeProvider";
 import { classNames } from "shared/lib/classNames/classNames";
-import { AppRouter } from "./prodivers/router";
 import { NavBar } from "widgets/NavBar";
 import { SideBar } from "widgets/SideBar";
+import { AppRouter } from "./prodivers/router";
 
 import "./styles/index.scss";
 
