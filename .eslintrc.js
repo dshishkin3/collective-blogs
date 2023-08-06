@@ -42,6 +42,7 @@ module.exports = {
     "arrow-body-style": "off",
     "object-curly-newline": "off",
     "i18next/no-literal-string": ["error", { markupOnly: true }],
+    "react/jsx-wrap-multilines": "off",
   },
   globals: {
     __IS_DEV__: true,
