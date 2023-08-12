@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 
 import { useTheme } from "app/prodivers/themeProvider";
 import { classNames } from "shared/lib/classNames/classNames";
@@ -15,7 +15,6 @@ const App = () => {
     <div className={classNames("app", {}, [theme])}>
       <Suspense fallback="">
         <NavBar />
-        top!
         <div className="content-page">
           <SideBar />
           <AppRouter />
