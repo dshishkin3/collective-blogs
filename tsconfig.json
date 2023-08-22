@@ -16,9 +16,9 @@
   },
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS"
+      "module": "CommonJS",
+      "jsx": "react"
     }
   }
-  // "include": ["./config/jest/setupTests.ts"]
+  // "include": ["./config/jest/setupTests.ts", "./src/**/*.ts"]
 }
-//
