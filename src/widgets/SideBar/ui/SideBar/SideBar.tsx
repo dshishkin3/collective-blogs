@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { t } from "i18next";
 
 import { classNames } from "shared/lib/classNames/classNames";
 import { ThemeSwitcher } from "shared/ui/ThemeSwitcher";
@@ -19,7 +20,7 @@ export const SideBar = () => {
       className={classNames(styles.SideBar, { [styles.collapsed]: collapsed })}
     >
       <button data-testid="sidebar-toggle" onClick={onToggle}>
-        toggle
+        {t("toggle")}
       </button>
       <div className={styles.switchers}>
         <ThemeSwitcher />

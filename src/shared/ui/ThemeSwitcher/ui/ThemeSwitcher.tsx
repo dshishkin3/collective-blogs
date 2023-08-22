@@ -1,5 +1,5 @@
 import { Theme, useTheme } from "app/prodivers/themeProvider";
-import React, { FC } from "react";
+import { FC } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
 

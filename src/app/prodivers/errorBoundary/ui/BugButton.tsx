@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import React, { useEffect, useState } from "react";
 import { Button } from "shared/ui/Button/Button";
 
@@ -12,5 +13,5 @@ export const BugButton = () => {
     }
   }, [error]);
 
-  return <Button onClick={onThrow}>throw error</Button>;
+  return <Button onClick={onThrow}>{t("throw error")}</Button>;
 };

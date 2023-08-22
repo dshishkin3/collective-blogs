@@ -35,7 +35,6 @@ module.exports = {
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
     "no-underscore-dangle": "off",
-    "max-len": ["error", { code: 140 }],
     "prefer-const": "error",
     "no-console": "warn",
     "react/button-has-type": "off",
@@ -43,10 +42,12 @@ module.exports = {
     "object-curly-newline": "off",
     "i18next/no-literal-string": [
       "error",
-      { markupOnly: true, ignoreAttribute: ["data-testid"] },
+      { markupOnly: true, ignoreAttribute: ["data-testid", "to"] },
     ],
-    "max-len": ["error", { ignoreCommets: true, code: 100 }],
+    "max-len": ["error", { ignoreComments: true, code: 120 }],
     "react/jsx-wrap-multilines": "off",
+    "func-names": "off",
+    "implicit-arrow-linebreak": "off",
   },
   globals: {
     __IS_DEV__: true,
