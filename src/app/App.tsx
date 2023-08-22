@@ -1,4 +1,4 @@
-import { Suspense, useEffect } from "react";
+import { Suspense } from "react";
 
 import { useTheme } from "app/prodivers/themeProvider";
 import { classNames } from "shared/lib/classNames/classNames";
